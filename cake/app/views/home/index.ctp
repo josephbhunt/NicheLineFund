@@ -7,14 +7,29 @@
     <ul>
       <li style="border:none;"><img src="img/end.png" alt="Menu"/></li>
       <li><?php echo $html->link(
-                        $html->image("home.png", array('alt' => 'home')),
+                        $html->image("home.png", array('alt' => 'Home')),
                         array('controller'=>'home','action'=>'index'),
                         array('escape' => false)); ?></li>
-      <li><a href='about_us.html'><img src="img/about.png" alt="About Us"/></a></li>
-      <li><a href='photos.html'><img src="img/photos.png" alt="Photos"/></a></li>
-      <li><a href='builders.html'><img src="img/builders.png" alt="Builders"/></a></li>
-      <li><a href='contact.html'><img src="img/contact.png" alt="Contact"/></a></li>
-      <li><a href='store.html'><img src="img/store.png" alt="Store"/></a></li>
+      <li><?php echo $html->link(
+                        $html->image("about.png", array('alt' => 'About Us')),
+                        array('controller'=>'home','action'=>'about'),
+                        array('escape' => false)); ?></a></li>
+      <li><?php echo $html->link(
+                        $html->image("photos.png", array('alt' => 'Photos')),
+                        array('controller'=>'photos','action'=>'photos'),
+                        array('escape' => false)); ?></li>
+      <li><?php echo $html->link(
+                        $html->image("builders.png", array('alt' => 'Builders')),
+                        array('controller'=>'home','action'=>'builders'),
+                        array('escape' => false)); ?></li>
+      <li><?php echo $html->link(
+                        $html->image("contact.png", array('alt' => 'Contact')),
+                        array('controller'=>'home','action'=>'contact'),
+                        array('escape' => false)); ?></li>
+      <li><?php echo $html->link(
+                        $html->image("store.png", array('alt' => 'Store')),
+                        array('controller'=>'store','action'=>'index'),
+                        array('escape' => false)); ?></li>
       <li style="border:none;"><img src="img/end_reverse.png" alt="Menu"/></li>
     </ul>
   </div>

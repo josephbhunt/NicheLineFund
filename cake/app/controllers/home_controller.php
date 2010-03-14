@@ -7,5 +7,13 @@ class HomeController extends AppController {
   function index(){
   }
   
+  function about(){
+  }
+  
+  function contact(){
+  }
+  
+  function builders(){
+  }
 }
 ?>

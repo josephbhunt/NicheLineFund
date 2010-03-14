@@ -38,8 +38,8 @@ body{
 
 #main-menu ul li {
 	float:left;
-	border-right:1px solid #A8B1B8;
-	border-left:1px solid #A8B1B8;
+	border-right:1px solid #000000;
+	border-left:1px solid #000000;
 	line-height:0px;
 }
 
