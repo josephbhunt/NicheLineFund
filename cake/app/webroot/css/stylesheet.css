@@ -1,0 +1,89 @@
+* {
+	margin:0em;
+	padding:0em;
+}
+
+body{
+	background: url("/img/bg1.jpg") repeat;
+}
+
+#wrap{
+	background-color:#000000;
+	margin:auto;
+	padding:20px;
+	width:1000px;
+	height:620px;
+}
+
+#main-title{
+	width:1000px;
+	text-align:center;
+	margin:20px 0px 5px 0px;
+	font-family: Copperplate, Monotype Corsiva, Arial, Times New Roman;
+	font-style:italic;
+	font-size:60px;
+	letter-spacing:3px;
+	color:#A8B1B8;
+}
+
+#main-menu{
+	color:#A8B1B8;
+	margin:0px auto 100px auto;
+	width:665px;
+}
+
+#main-menu ul{
+	list-style:none;
+}
+
+#main-menu ul li {
+	float:left;
+	border-right:1px solid #A8B1B8;
+	border-left:1px solid #A8B1B8;
+	line-height:0px;
+}
+
+#main-menu ul li img{
+	border:none;
+}
+
+#main-menu ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:18px;
+	font-family:Arial;
+	color:00276E;
+}
+
+#main-menu a:hover{
+	color:#A8B1B8;
+}
+
+#main-page-video{
+	float:left;
+	margin:5px 10px 5px 0px;
+}
+
+#charity-info{
+	float:left;
+	width:280px;
+	font-family:Copperplate, Monotype Corsiva, Arial, Times New Roman;
+	font-size:30px;
+	color:#FEB729;
+}
+
+#charity-info a{ color:#00276E;}
+
+#footer{
+	background-color:#00276E;
+	width:1000px;
+	height:75px;
+	margin:0px auto 0px auto;
+	padding:20px;
+	text-align:center;
+	color:#A8B1B8;
+	font-family: Arial, Times New Roman;
+	font-size:20px;
+}
+
+.clear{ clear:both;}
