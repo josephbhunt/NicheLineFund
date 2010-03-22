@@ -5,6 +5,12 @@
 
 body{
 	background: url("/img/bg1.jpg") repeat;
+	height:100%;
+}
+
+#container{
+  min-height:100%;
+  position:relative;
 }
 
 #wrap{
@@ -12,14 +18,14 @@ body{
 	margin:auto;
 	padding:20px;
 	width:1000px;
-	height:620px;
+	height:100%;
 }
 
 #main-title{
 	width:1000px;
 	text-align:center;
 	margin:20px 0px 5px 0px;
-	font-family: Copperplate, Monotype Corsiva, Arial, Times New Roman;
+	font-family: Copperplate, Verdana, Times New Roman;
 	font-style:italic;
 	font-size:60px;
 	letter-spacing:3px;
@@ -38,8 +44,8 @@ body{
 
 #main-menu ul li {
 	float:left;
-	border-right:1px solid #000000;
-	border-left:1px solid #000000;
+	border-right:1px solid #00276E;
+	border-left:1px solid #00276E;
 	line-height:0px;
 }
 
@@ -67,7 +73,7 @@ body{
 #charity-info{
 	float:left;
 	width:280px;
-	font-family:Copperplate, Monotype Corsiva, Arial, Times New Roman;
+	font-family:Copperplate, Georgia, Arial, Times New Roman;
 	font-size:30px;
 	color:#FEB729;
 }
@@ -75,11 +81,12 @@ body{
 #charity-info a{ color:#00276E;}
 
 #footer{
-	background-color:#00276E;
-	width:1000px;
-	height:75px;
-	margin:0px auto 0px auto;
-	padding:20px;
+  position:absolute;
+  bottom:0px;
+  background-color:#00276E;
+  width:100%;
+	height:25px;
+	padding:20px 0px 20px 0px;
 	text-align:center;
 	color:#A8B1B8;
 	font-family: Arial, Times New Roman;
