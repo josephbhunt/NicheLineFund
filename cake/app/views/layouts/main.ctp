@@ -11,10 +11,8 @@
 <body>
   
   <div id="container">
-    <div id='wrap'>
-      <div id='main-title'>
-        The Niche Line Builders
-      </div>
+    <div id='menu_wrap'>
+      <div id='main-title'>The Niche Line Builders</div>
 
       <div id='main-menu'>
         <ul>
@@ -46,14 +44,16 @@
           <li style="border:none;"><?php echo $html->image("end_reverse.png", array('alt' => 'menu')) ?></li>
         </ul>
       </div>
-
+    </div><!-- end wrap-->
       <div class='clear'></div>
       <?php echo $content_for_layout; ?>
-    </div><!-- end wrap-->
   </div><!-- end container -->
 
   <div id='footer'>
-    Created by the 481 Group
+    <div id="footer_content">
+      <span id="dev_team_stamp">Created by the 481 Group</span>
+      <span id="login_link">Login</span>
+    </div>
   </div>
 </body>
 </html>

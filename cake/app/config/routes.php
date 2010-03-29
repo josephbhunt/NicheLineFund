@@ -35,9 +35,13 @@
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
+ //Home
 	Router::connect('/home/index', array('controller' => 'home', 'action' => 'index'));
 	Router::connect('/home/about', array('controller' => 'home', 'action' => 'about'));
 	Router::connect('/home/contact', array('controller' => 'home', 'action' => 'contact'));
 	Router::connect('/home/builders', array('controller' => 'home', 'action' => 'builders'));
-	Router::connect('/photos/*', array('controller' => 'photos', 'action' => 'index'));
+	
+	// Store
+	Router::connect('/photos/index', array('controller' => 'photos', 'action' => 'index'));
+	Router::connect('/photos/show', array('controller' => 'photos', 'action' => 'show'));
 ?>

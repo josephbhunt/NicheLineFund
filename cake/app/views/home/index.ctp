@@ -4,6 +4,7 @@
 	echo $javascript->link("swfobject.js", false);
 ?>
 
+<div id="home_main_content">
   <div id='main-page-video'>
   
     <object type="application/x-shockwave-flash" 
@@ -31,3 +32,4 @@
   </div>
   
   <div class='clear'></div>
+</div>
